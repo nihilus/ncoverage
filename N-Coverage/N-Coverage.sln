@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ManagedDbgWrapper", "..\ManagedDbgWrapper\ManagedDbgWrapper.vcproj", "{C83A7625-9E19-4CAA-9930-C2DB4B7B0921}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N-Coverage", "N-Coverage.csproj", "{634C4A69-62EA-47B9-9706-CFF51C70C125}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
+		Release|Any CPU = Release|Any CPU
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C83A7625-9E19-4CAA-9930-C2DB4B7B0921}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{C83A7625-9E19-4CAA-9930-C2DB4B7B0921}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{C83A7625-9E19-4CAA-9930-C2DB4B7B0921}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{C83A7625-9E19-4CAA-9930-C2DB4B7B0921}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C83A7625-9E19-4CAA-9930-C2DB4B7B0921}.Debug|Win32.Build.0 = Debug|Win32
+		{C83A7625-9E19-4CAA-9930-C2DB4B7B0921}.Release|Any CPU.ActiveCfg = Release|Win32
+		{C83A7625-9E19-4CAA-9930-C2DB4B7B0921}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{C83A7625-9E19-4CAA-9930-C2DB4B7B0921}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{C83A7625-9E19-4CAA-9930-C2DB4B7B0921}.Release|Win32.ActiveCfg = Release|Win32
+		{C83A7625-9E19-4CAA-9930-C2DB4B7B0921}.Release|Win32.Build.0 = Release|Win32
+		{634C4A69-62EA-47B9-9706-CFF51C70C125}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{634C4A69-62EA-47B9-9706-CFF51C70C125}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{634C4A69-62EA-47B9-9706-CFF51C70C125}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{634C4A69-62EA-47B9-9706-CFF51C70C125}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{634C4A69-62EA-47B9-9706-CFF51C70C125}.Debug|Win32.ActiveCfg = Debug|Any CPU
+		{634C4A69-62EA-47B9-9706-CFF51C70C125}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{634C4A69-62EA-47B9-9706-CFF51C70C125}.Release|Any CPU.Build.0 = Release|Any CPU
+		{634C4A69-62EA-47B9-9706-CFF51C70C125}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{634C4A69-62EA-47B9-9706-CFF51C70C125}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{634C4A69-62EA-47B9-9706-CFF51C70C125}.Release|Win32.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
