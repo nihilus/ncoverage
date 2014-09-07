@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ManagedDbgWrapper", "..\ManagedDbgWrapper\ManagedDbgWrapper.vcproj", "{C83A7625-9E19-4CAA-9930-C2DB4B7B0921}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ManagedDbgWrapper", "..\ManagedDbgWrapper\ManagedDbgWrapper.vcxproj", "{C83A7625-9E19-4CAA-9930-C2DB4B7B0921}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "N-Coverage", "N-Coverage.csproj", "{634C4A69-62EA-47B9-9706-CFF51C70C125}"
 EndProject
