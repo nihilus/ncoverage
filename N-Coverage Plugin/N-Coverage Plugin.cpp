@@ -107,7 +107,10 @@ bool saveFileDialog(HWND hWndOwner, const string& title, const char* filter, con
 
 	if (chosenFile.size()) 
 	{
-		if (chosenFile.size() > 4) chosenFile = chosenFile.substr(0, chosenFile.size()-4) + ".ndump";
+		if (chosenFile.size() > 4){
+			chosenFile = chosenFile.substr(0, chosenFile.size()-4);
+			chosenFile.append(".ndump");
+		}
 		strncpy_s(fileName, QMAXPATH, chosenFile.c_str(), _TRUNCATE);
 	}
 
