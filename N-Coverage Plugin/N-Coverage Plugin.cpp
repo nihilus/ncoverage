@@ -238,7 +238,7 @@ ea_t nextBBSize(ea_t start, ea_t end)
 	while(currentEA < end)
 	{
 		// try to interprete current EA as code
-		if (!ua_ana0(currentEA)) break;
+		if (!decode_insn(currentEA)) break;
 		currentEA = get_item_end(currentEA);
 		// should a "call" end our BB?
 		if (is_basic_block_end(false)) break;
